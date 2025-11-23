@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ARPANET - Página Inicial</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Navegación principal">
+            <a href="index.html" class="logo">ARPANET</a>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ucla.html">UCLA</a></li>
+                <li><a href="stanford.html">SRI Stanford</a></li>
+                <li><a href="ucsb.html">UCSB</a></li>
+                <li><a href="utah.html">University of Utah</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>ARPANET</h1>
+
+        <section>
+            <h2>Resumen</h2>
+            <p>
+                ARPANET (Advanced Research Projects Agency Network) fue la primera red de conmutación de paquetes a escala práctica y el antecedente directo de Internet. 
+                Iniciada por la Agencia de Proyectos de Investigación Avanzada (ARPA) en Estados Unidos, su desarrollo a finales de la década de 1960 introdujo conceptos, tecnologías y modelos de gobernanza que todavía son base en las redes modernas.
+            </p>
+        </section>
+
+        <section>
+            <h2>Características técnicas principales</h2>
+            <ul>
+                <li>Conmutación de paquetes: fragmentación de datos en unidades independientes que se enrutan por la red.</li>
+                <li>IMP (Interface Message Processor): nodos intermedios encargados de encaminar paquetes entre ordenadores finales.</li>
+                <li>Protocolos iniciales: protocolos propios que evolucionaron hasta TCP/IP durante las décadas siguientes.</li>
+                <li>Enlaces conmutados y líneas dedicadas (líneas telefónicas/leased lines) con velocidades modestas según la época.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Línea temporal resumida</h2>
+            <ul>
+                <li><strong>1962–1969:</strong> conceptos y propuestas iniciales (Licklider, investigación ARPA).</li>
+                <li><strong>1969:</strong> primeros cuatro nodos conectados (UCLA, SRI, UCSB, Utah).</li>
+                <li><strong>1971:</strong> correo electrónico emerge como la aplicación más utilizada en ARPANET.</li>
+                <li><strong>1973:</strong> primeras conexiones internacionales y trabajos de estandarización.</li>
+                <li><strong>1983:</strong> ARPANET adopta TCP/IP como estándar, paso clave hacia Internet.</li>
+                <li><strong>1990:</strong> ARPANET es retirado progresivamente y reemplazado por redes basadas en TCP/IP y la creciente Internet pública.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Personas y organizaciones clave</h2>
+            <ul>
+                <li>ARPA/DARPA: agencia financiadora y promotora.</li>
+                <li>BBN (Bolt, Beranek & Newman): contratista principal que construyó los IMPs y la implementación inicial de la red.</li>
+                <li>Investigadores universitarios: equipos de UCLA, SRI, UCSB y Utah que instalaron y probaron los nodos.</li>
+                <li>Desarrolladores de protocolos: trabajos posteriores de Vint Cerf y Bob Kahn que llevaron a TCP/IP.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Aplicaciones y legado</h2>
+            <p>
+                ARPANET permitió experimentos que demostraron la viabilidad de compartir recursos y servicios entre centros remotos. Surgieron aplicaciones innovadoras como el correo electrónico, transferencia remota de archivos y herramientas de colaboración. 
+                El modelo descentralizado, la filosofía de interoperabilidad y la evolución de protocolos que se probaron en ARPANET son la base técnica y cultural de Internet.
+            </p>
+        </section>
+
+        <section>
+            <h2>Recursos y lecturas recomendadas</h2>
+            <ul>
+                <li>Documentación histórica de ARPA/ARPA Network (archivos universitarios y de BBN).</li>
+                <li>Artículos sobre la evolución de TCP/IP y la adopción de estándares en los años 70 y 80.</li>
+                <li>Conferencias y testimonios de participantes (Kleinrock, Cerf, Kahn, Frank Heart, entre otros).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Nodos iniciales (1969)</h2>
+            <p>Los cuatro nodos originales estuvieron ubicados en:</p>
+            <div class="grid-images" role="list">
+                <a href="ucla.html" role="listitem"><img src="./imagenes/The_University_of_California_UCLA.svg.png" alt="UCLA" width="150"></a>
+                <a href="stanford.html" role="listitem"><img src="./imagenes/Google-profile-image-black-696.png" alt="SRI Stanford" width="150"></a>
+                <a href="ucsb.html" role="listitem"><img src="./imagenes/UCSB-Default-image-FB.avif" alt="UCSB" width="150"></a>
+                <a href="utah.html" role="listitem"><img src="./imagenes/UTAH.jpg" alt="University of Utah" width="150"></a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h3>Contacto</h3>
+            <p><a href="mailto:arodriguez08@ciamariaz.es">arodriguez08@ciamariaz.es</a></p>
+        </section>
+
+        <section class="comentario">
+            <h3>Comentario</h3>
+            <form method="post" action="#" aria-label="Enviar comentario">
+                <label for="comentario" class="visually-hidden">Escribe tu comentario</label>
+                <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe tu comentario aquí..."></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ARPANET — Proyecto educativo</p>
+    </footer>
+</body>
+</html>
